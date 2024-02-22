@@ -31,8 +31,6 @@ public class PlayerInteractor : MonoBehaviour
     }
 
     void updateColorBasedOnHp() {
-        Debug.Log(this.playerObj);
-        Debug.Log(this.playerData);
         if(this.playerData.currentHP<=100 && this.playerData.currentHP>=75) {
 
         }
